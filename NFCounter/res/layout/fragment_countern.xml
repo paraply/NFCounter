@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_padda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- De olika objekten i counter_fragmentet -->
+    
+    
+    <!-- Text som visas när det inte finns några räknare. Dold från början -->
+    <TextView
+        android:id="@+id/no_counters_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_dec"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/no_counters_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible" />
+
+    <!--  CounterTextView-objekt, som en vanlig textview med lite extra funktioner -->
+    <se.evinja.raknare.CounterTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/countertextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_dec"
+        android:gravity="center"
+        android:shadowColor="@color/countern_skugga"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="0"
+        android:textColor="@color/countern_text" />
+
+    <!-- Knapp för att öka -->
+    <Button
+        android:id="@+id/button_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/minusknapp"
+        android:onClick="dekrement" />
+	
+    <!--  Knapp för att minska -->
+    <Button
+        android:id="@+id/button_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/plusknapp"
+        android:onClick="inkrement" />
+
+</RelativeLayout>

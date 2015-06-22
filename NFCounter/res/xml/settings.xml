@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/global_settings" >
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="do_sounds"
+            android:title="@string/setting_do_sound" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="do_vol"
+            android:title="@string/setting_do_vol" />
+    
+    </PreferenceCategory>
+    
+ 
+
+</PreferenceScreen>

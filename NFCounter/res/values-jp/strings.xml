@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">カウンタ</string>
+    
+    <string name="no_counters_text">カウンタガありません。\n　新しいカウンタを作るには＋を押してください。</string>
+    
+	<string name="global_settings">アプリの設定</string>
+	<string name="setting_do_sound">サウンドエフェクト</string>
+	<string name="setting_do_vol">音量バタンを使う </string>
+	
+	<string name="new_counter">新しい カウンタ</string>
+    <string name="new_counter_dialog">新しいカウンタを作る</string>
+    <string name="new_counter_hinta">カウンタの名前</string>
+    
+    <string name="action_settings">設定</string>
+    <string name="action_ny">新しい</string>
+    <string name="action_radera">削除する</string>
+    <string name="action_nolla">リセット</string>
+        
+    <string name="nfc_not_exists">NFC がありません</string>
+    <string name="nfc_disabled">NFCはオフになっている</string>
+    
+    <string name="error">エラーが発生しました </string>
+    <string name="OK">オッケー</string>
+    <string name="Cancel">キャンセル</string>
+    
+</resources>

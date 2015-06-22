@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UltraRäknare</string>
+    
+    <string name="no_counters_text">Alla räknare är borttagna.\nTryck på + för att göra en ny.</string>
+    
+	<string name="global_settings">Programinställningar</string>
+	<string name="setting_do_sound">Ljudeffekter</string>
+	<string name="setting_do_vol">Använd volymknapparna</string>
+	
+	<string name="new_counter">Ny räknare</string>
+    <string name="new_counter_dialog">Skapa ny</string>
+    <string name="new_counter_hinta">Räknarens namn</string>
+    
+    <string name="action_settings">Inställningar</string>
+    <string name="action_ny">Ny</string>
+    <string name="action_radera">Radera</string>
+    <string name="action_nolla">Nollställ</string>
+        
+    <string name="nfc_not_exists">NFC saknas på denna enheten</string>
+    <string name="nfc_disabled">NFC är avstängt</string>
+    
+    <string name="error">Fel inträffade i </string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Avbryt</string>
+    
+</resources>

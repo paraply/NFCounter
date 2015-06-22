@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.evinja.raknare.Starta" >
+	<!-- Settings -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <!-- Ny -->
+    <item
+        android:id="@+id/action_ny"
+        android:icon="@drawable/ic_action_content_new"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_ny"/>
+    <!-- Radera -->
+    <item
+        android:id="@+id/action_radera"
+        android:icon="@drawable/ic_action_navigation_cancel"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_radera"/>
+    <!-- Nollställ -->
+    <item
+        android:id="@+id/action_nolla"
+        android:icon="@drawable/ic_action_av_replay"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_nolla">
+    </item>
+
+</menu>
